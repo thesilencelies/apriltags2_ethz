@@ -29,8 +29,6 @@ class AprilGrid(object):
                 return False
         if not d.good:
             return False
-        if d.id >= self.rows * self.columns:  # original code divides this by 4????
-            return False
 
         return True
 
